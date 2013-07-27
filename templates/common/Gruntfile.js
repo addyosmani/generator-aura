@@ -48,10 +48,10 @@ module.exports = function (grunt) {
           baseUrl: '.',
           optimize: 'none',
           paths: {
-            aura: 'app/components/aura/lib',
+            aura: 'app/bower_components/aura/lib',
             jquery: 'empty:',
             underscore: 'empty:',
-            eventemitter: 'app/components/eventemitter2/lib/eventemitter2'
+            eventemitter: 'app/bower_components/eventemitter2/lib/eventemitter2'
           },
           shim: {
             underscore: {
@@ -76,7 +76,7 @@ module.exports = function (grunt) {
           src: [
             '*.{ico,txt,js,html}',
             '.htaccess',
-            'components/**/*',
+            'bower_components/**/*',
             'images/**/*',
             'styles/**/*',
             'widgets/**/*',
@@ -106,7 +106,7 @@ module.exports = function (grunt) {
         imagesDir: '<%= yeoman.app %>/images',
         javascriptsDir: '<%= yeoman.app %>/scripts',
         fontsDir: '<%= yeoman.app %>/styles/fonts',
-        importPath: '<%= yeoman.app %>/components',
+        importPath: '<%= yeoman.app %>/bower_components',
         force: true,
         relativeAssets: true
       },
