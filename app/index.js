@@ -79,7 +79,7 @@ AppGenerator.prototype.createDirLayout = function createDirLayout() {
   this.mkdir('app');
   this.mkdir('app/styles');
   this.mkdir('app/images');
-  this.mkdir('app/widgets');
+  this.mkdir('app/aura_components');
   this.mkdir('app/extensions');
 };
 
