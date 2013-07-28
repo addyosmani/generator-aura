@@ -9,12 +9,7 @@ require.config({
 require(['aura/aura'], function (Aura) {
   'use strict';
 
-  var app = new Aura({
-    /* Aurajs default components location were moved
-     * to ./aura_components.
-     * Override this to ./widgets */
-    sources: { default: 'widgets' }
-  });
+  var app = new Aura();
 
   /*
   Add your extensions here.
