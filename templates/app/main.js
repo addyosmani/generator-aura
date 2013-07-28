@@ -20,5 +20,5 @@ require(['aura/aura'], function (Aura) {
   Add your extensions here.
   app.use('extensions/sample');
   */
-  app.start({ widgets: 'body' });
+  app.start({ components: 'body' });
 });
