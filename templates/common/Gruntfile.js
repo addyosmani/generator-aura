@@ -79,7 +79,7 @@ module.exports = function (grunt) {
             'bower_components/**/*',
             'images/**/*',
             'styles/**/*',
-            'widgets/**/*',
+            'aura_components/**/*',
             'extensions/**/*'
           ]
         }]
@@ -92,7 +92,7 @@ module.exports = function (grunt) {
         },
         files: {
           src: [
-          'app/widgets/**.js',
+          'app/aura_components/**.js',
           'app/extensions/**.js',
           'app/main.js',
           ]
@@ -139,7 +139,7 @@ module.exports = function (grunt) {
         files: [
           'app/*.html',
           'app/styles/*.css',
-          'app/{extensions,widgets}/*.js',
+          'app/{extensions,aura_components}/*.js',
           'app/images/*.{png,jpg,jpeg}'
         ],
         tasks: ['default']
